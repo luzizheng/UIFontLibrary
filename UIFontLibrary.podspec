@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UIFontLibrary"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.3"
   spec.summary      = "UIFont library for iOS (Objective-C)"
 
   # This description is used to generate tags and improve search results.
@@ -90,10 +90,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "UIFontLibrary/UIFontLibrary/*.{h,m,c}"
+  spec.source_files  = "UIFontLibrary/UIFontLibrary/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "UIFontLibrary/UIFontLibrary/UIFontLibrary.h"
+  spec.public_header_files = "UIFontLibrary/UIFontLibrary/*.{h}"
 
   spec.platform = :ios, '9.0'
   spec.requires_arc = true
