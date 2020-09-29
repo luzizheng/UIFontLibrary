@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UIFontLibrary"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "UIFont library for iOS (Objective-C)"
 
   # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -95,7 +95,7 @@ Pod::Spec.new do |spec|
 
   spec.public_header_files = "UIFontLibrary/UIFontLibrary/UIFontLibrary.h"
 
-  spec.platform = :ios, '6.0'
+  spec.platform = :ios, '9.0'
   spec.requires_arc = true
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
